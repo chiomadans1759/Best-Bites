@@ -1,15 +1,25 @@
 import React, { Component } from "react";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 import { hot } from "react-hot-loader";
 import "./App.css";
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <h1> Hello, World! </h1>
-        <h1> Hello, World! </h1>
-        <h1> Hello, World! </h1>
-        <h1> Hello, World! </h1>
+      <div className="hotels">
+        <div>
+          <h4>Hotel Da Rego</h4>
+          <p>
+            <span>(2, 350)N</span>
+            <span>Restaurant</span>
+          </p>
+          <p>House 13/14, Close 1, Mayfair Gardens Estate, Lagos</p>
+          <p>Opens 09:00am to 08:30pm Everyday</p>
+          <p>
+            Website <a href="https://bloverse.com">https://bloverse.com</a>
+          </p>
+        </div>
+        <img src="/assets/restaurant.jpg"></img>
       </div>
     );
   }
